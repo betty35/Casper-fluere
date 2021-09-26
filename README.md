@@ -4,7 +4,7 @@ Ghost CMS theme based on Casper for my own sites.
 Forked from Casper. 
 
 ## Features added
-
+- tags page
 
 
 
