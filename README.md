@@ -1,3 +1,14 @@
+# Casper-fluere
+Ghost CMS theme based on Casper for my own sites.
+
+Forked from Casper. 
+
+## Features added
+
+
+
+
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
