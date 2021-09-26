@@ -5,6 +5,17 @@ Forked from Casper.
 
 ## Features added
 - tags page
+- [prism.js](https://prismjs.com/) for code block
+    - languages (selected and downloaded)
+        - Markup + HTML + XML + SVG + MathML + SSML + Atom + RSS
+        - CSS
+        - SQL, GraphQL
+        - C-like, JavaScript, Java, Python, C++, C#, Go 
+        - Bash + Shell
+    - plugins
+        - line numbers
+        - copy to clipboard
+
 
 
 
