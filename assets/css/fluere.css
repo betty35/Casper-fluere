@@ -37,7 +37,7 @@
     background-color: var(--ghost-accent-color);
 }
 
-ul.nav li::before{
+.gh-head-menu ul.nav li::before{
     content: var(--icon-snowflake);
     font-family: var(--icon-font-family);
     font-weight: var(--icon-font-weight);
