@@ -2,7 +2,7 @@
     "name": "casper-fluere",
     "description": "A theme for ghost CMS, forked from Casper.",
     "demo": "https://demo.ghost.io",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"
@@ -44,8 +44,10 @@
         "url": "https://github.com/betty35/Casper-fluere.git"
     },
     "bugs": "https://github.com/betty35/Casper-fluere/issues",
-    "contributors": ["https://github.com/TryGhost/Casper/graphs/contributors",
-        "betty35"],
+    "contributors": [
+        "https://github.com/TryGhost/Casper/graphs/contributors",
+        "betty35"
+    ],
     "devDependencies": {
         "@tryghost/release-utils": "0.6.12",
         "autoprefixer": "10.2.5",
@@ -94,5 +96,6 @@
         "extends": [
             "@tryghost:theme"
         ]
-    }
+    },
+    "dependencies": {}
 }
