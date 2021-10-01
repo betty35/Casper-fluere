@@ -2,6 +2,9 @@
     --color-white: rgba(255,255,255,0.7);
     --general-margin: 20px;
     --general-border-radius: 7px;
+    --icon-snowflake: "\f2dc";
+    --icon-font-family: "Font Awesome 5 Free";
+    --icon-font-weight: 900;
 }
 
 .background-cover-image {
@@ -28,4 +31,16 @@
 
 .gh-head.has-cover {
     background: transparent;
+}
+
+.gh-head-open .gh-head{
+    background-color: var(--ghost-accent-color);
+}
+
+ul.nav li::before{
+    content: var(--icon-snowflake);
+    font-family: var(--icon-font-family);
+    font-weight: var(--icon-font-weight);
+    margin-right: 8px;
+    opacity: 0.7;
 }
