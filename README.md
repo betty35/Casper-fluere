@@ -4,7 +4,7 @@ Ghost CMS theme based on Casper for my own sites.
 Forked from Casper. 
 
 ## Features Added
-- tags page
+- tags page (show a tags)
 - [prism.js](https://prismjs.com/) for code block
     - languages (selected and downloaded)
         - Markup + HTML + XML + SVG + MathML + SSML + Atom + RSS
@@ -15,12 +15,13 @@ Forked from Casper.
     - plugins
         - line numbers
         - copy to clipboard
+- font awesome 5 free
 
 ## Style Changes
 - full-screen background image
 - semi-transparent content panel
 - commented out the lines for social media links (uncomment to enable them again)
-
+- show all tags for each posts
 
 
 
