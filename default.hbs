@@ -47,6 +47,8 @@
             <div class="gh-head-menu">
                 {{navigation}}
             </div>
+            {{!-- 
+            <!-- Liz: I don't need these... but you could uncomment them and use -->
             <div class="gh-head-actions">
                 <div class="gh-social">
                     {{#if @site.facebook}}
@@ -63,6 +65,7 @@
                     <a class="gh-head-button" href="#/portal/account">Account</a>
                 {{/unless}}
             </div>
+            --}}
         </nav>
     </header>
 
@@ -94,7 +97,12 @@
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
-            <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+            <div>
+                <a href="https://ghost.org/" target="_blank" rel="noreferrer noopener">Powered by Ghost</a>
+                &nbsp;- Template: 
+                <a href="https://github.com/betty35/Casper-fluere.git" target="_blank" rel='noreferrer noopener'>
+                Casper-fluere</a>
+             </div>
         </div>
     </footer>
 

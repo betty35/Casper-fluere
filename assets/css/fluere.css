@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-.site-main {
+.main-panel,.site-main {
     background-color: var(--color-white);
     border-radius: var(--general-border-radius);
     margin: var(--general-margin);
@@ -24,4 +24,8 @@
 
 .site-header-content.has-cover {
     background-color: transparent;
+}
+
+.gh-head.has-cover {
+    background: transparent;
 }
