@@ -44,3 +44,17 @@ ul.nav li::before{
     margin-right: 8px;
     opacity: 0.7;
 }
+
+
+.post-card-tag {
+    margin: 0 1em 0.2em 0;
+    color: var(--ghost-accent-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.tag-right-margin {
+    margin: 0 1em 0 0;
+}
