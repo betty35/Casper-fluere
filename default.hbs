@@ -16,6 +16,7 @@
     {{!-- Liz: Additional CSS ( ' v ' ) --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/fontawesome.all.min.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "built/prism.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/fluere.css"}}" />
 
     {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
     it should always be the last tag before the closing head tag --}}
@@ -46,6 +47,8 @@
             <div class="gh-head-menu">
                 {{navigation}}
             </div>
+            {{!-- 
+            <!-- Liz: I don't need these... but you could uncomment them and use -->
             <div class="gh-head-actions">
                 <div class="gh-social">
                     {{#if @site.facebook}}
@@ -62,12 +65,29 @@
                     <a class="gh-head-button" href="#/portal/account">Account</a>
                 {{/unless}}
             </div>
+            --}}
         </nav>
     </header>
 
     <div class="site-content">
+        {{#if @site.cover_image}}
+        {{!-- This is a responsive image, it loads different sizes depending on device
+        https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+        <img class="background-cover-image"
+            srcset="{{img_url @site.cover_image size="s"}} 300w,
+                    {{img_url @site.cover_image size="m"}} 600w,
+                    {{img_url @site.cover_image size="l"}} 1000w,
+                    {{img_url @site.cover_image size="xl"}} 2000w"
+            sizes="100vw"
+            src="{{img_url @site.cover_image size="xl"}}"
+            alt=""
+        />
+        {{/if}}
+
         {{!-- All other templates get inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
+        
+        
     </div>
 
     {{!-- The global footer at the very bottom of the screen --}}
@@ -77,7 +97,12 @@
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
-            <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+            <div>
+                <a href="https://ghost.org/" target="_blank" rel="noreferrer noopener">Powered by Ghost</a>
+                &nbsp;- Template: 
+                <a href="https://github.com/betty35/Casper-fluere.git" target="_blank" rel='noreferrer noopener'>
+                Casper-fluere</a>
+             </div>
         </div>
     </footer>
 

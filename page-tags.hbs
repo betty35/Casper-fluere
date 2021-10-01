@@ -5,13 +5,19 @@ into the {body} of the default.hbs template --}}
 {{#post}}
 {{!-- Everything inside the #post tags pulls data from the post --}}
 
-<main id="main">
-    {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
-    {{#foreach tags}}
-        {{!-- The tag below includes the markup for each tag - partials/tag-card.hbs --}}
-        {{> "tag-card"}}
-    {{/foreach}}
-    {{/get}}
+<main id="site-main" class="site-main">
+    <div class="outer">
+        <div class="inner posts">
+            <div class="post-feed">
+                {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+                {{#foreach tags}}
+                    {{!-- The tag below includes the markup for each tag - partials/tag-card.hbs --}}
+                    {{> "tag-card"}}
+                {{/foreach}}
+                {{/get}}
+            </div>
+        </div> 
+    </div>
 </main>
 
 {{/post}}
