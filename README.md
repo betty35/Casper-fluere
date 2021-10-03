@@ -1,5 +1,5 @@
 # Casper-fluere
-Ghost CMS theme based on Casper for my own sites.
+Ghost CMS theme based on Casper for my own sites, packed with more features for developers.
 
 Forked from Casper. 
 
@@ -15,6 +15,7 @@ Forked from Casper.
     - plugins
         - line numbers
         - copy to clipboard
+        - show language
 - font awesome 5 free
 
 ## Style Changes
