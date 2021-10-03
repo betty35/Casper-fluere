@@ -15,6 +15,7 @@ Forked from Casper.
     - plugins
         - line numbers
         - copy to clipboard
+        - show language
 - font awesome 5 free
 
 ## Style Changes
