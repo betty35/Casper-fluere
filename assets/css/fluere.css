@@ -63,7 +63,7 @@
     min-height: 120px; 
 }
 
-.title-affix {
+.title-append {
     margin-left: 10px;
     color: var(--color-darkgrey);
 }
