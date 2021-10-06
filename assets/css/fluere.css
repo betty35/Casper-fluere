@@ -58,3 +58,12 @@
 .tag-right-margin {
     margin: 0 1em 0 0;
 }
+
+.post-card.tag-card {
+    min-height: 120px; 
+}
+
+.title-append {
+    margin-left: 10px;
+    color: var(--color-darkgrey);
+}
