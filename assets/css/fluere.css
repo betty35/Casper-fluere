@@ -67,3 +67,20 @@
     margin-left: 10px;
     color: var(--color-darkgrey);
 }
+
+table {
+    background-color: var(--color-white);
+}
+
+th {
+    font-weight: bold;
+    color:white;
+    background-color: var(--color-midgrey);
+}
+
+th, td {
+    border: 1px solid var(--color-lightgrey);
+    border-collapse: collapse;
+    padding-left: 10px;
+    text-align: left;
+}

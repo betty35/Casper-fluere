@@ -23,6 +23,7 @@ Forked from Casper.
 - semi-transparent content panel
 - commented out the lines for social media links (uncomment to enable them again)
 - show all tags for each posts
+- re-styled tables
 
 
 
