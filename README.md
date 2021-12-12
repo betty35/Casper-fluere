@@ -24,6 +24,7 @@ Forked from Casper.
 - commented out the lines for social media links (uncomment to enable them again)
 - show all tags for each posts
 - re-styled tables
+- semi-transparent white toggle-card and bookmark-card
 
 
 
