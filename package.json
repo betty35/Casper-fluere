@@ -2,7 +2,7 @@
     "name": "casper-fluere",
     "description": "A theme for ghost CMS, forked from Casper.",
     "demo": "https://demo.ghost.io",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"

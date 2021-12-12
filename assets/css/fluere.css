@@ -90,3 +90,7 @@ th, td {
     padding-left: 10px;
     text-align: left;
 }
+
+.kg-bookmark-container, .kg-toggle-card {
+    background: var(--color-white)!important;
+}
