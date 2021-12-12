@@ -7,6 +7,12 @@
     --icon-font-weight: 900;
 }
 
+/* Hide the email sign-up section: 'Sign up for more like this.' by default*/
+/* Comment out to unblock the section */
+.footer-cta {
+    display: none;
+}
+
 .background-cover-image {
     position: fixed;
     top: 0;
